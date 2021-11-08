@@ -1,0 +1,46 @@
+/*Fuentes de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Color de fondo*/
+body {
+    background-color: aquamarine;
+}
+/* */
+.container {
+    color:palegreen; /*color de la letra del parrafo*/
+    font-family: 'Roboto', sans-serif; /*fuentes del texto*/
+    margin: 0 auto;/*centrar*/
+    width: 800px; /*Ancho */
+    border: 5px solid orange;/*linea de borde*/
+    padding-left: 30px;/*espacio del parrafo entre el borde del contenedor*/
+    background-color: papayawhip;/*color de fondo*/
+}
+.perfil {
+    border-radius: 50%;/*imagen este en circulo*/
+    border: 5px solid aquamarine;/*color de la linea de borde imagen*/
+    display: block;
+    margin: auto;/*imagen quede centrada*/
+}
+
+/*esto me quita la linea */
+a {
+    text-decoration: none;
+}
+
+h1 {
+    color:palevioletred;/*color de letra*/
+    text-align: center;/*centrar texto*/
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h2{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    letter-spacing: 5px;/*espacio entre letras*/
+}
+
+footer{
+background-color: orchid;
+width: 800px;
+margin: 0 auto;
+}
