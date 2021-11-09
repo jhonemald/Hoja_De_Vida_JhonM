@@ -4,21 +4,21 @@
 
 /*Color de fondo*/
 body {
-    background-color: aquamarine;
+    background-color: rgb(52, 80, 71);
 }
 /* */
 .container {
-    color:palegreen; /*color de la letra del parrafo*/
+    color:rgb(49, 25, 104); /*color de la letra del parrafo*/
     font-family: 'Roboto', sans-serif; /*fuentes del texto*/
     margin: 0 auto;/*centrar*/
     width: 800px; /*Ancho */
-    border: 5px solid orange;/*linea de borde*/
+    border: 5px solid rgb(39, 36, 31);/*linea de borde*/
     padding-left: 30px;/*espacio del parrafo entre el borde del contenedor*/
-    background-color: papayawhip;/*color de fondo*/
+    background-color: rgb(88, 85, 78);/*color de fondo*/
 }
 .perfil {
     border-radius: 50%;/*imagen este en circulo*/
-    border: 5px solid aquamarine;/*color de la linea de borde imagen*/
+    border: 5px solid rgb(69, 97, 88);/*color de la linea de borde imagen*/
     display: block;
     margin: auto;/*imagen quede centrada*/
 }
@@ -29,7 +29,7 @@ a {
 }
 
 h1 {
-    color:palevioletred;/*color de letra*/
+    color:rgb(17, 7, 41);/*color de letra*/
     text-align: center;/*centrar texto*/
     font-family: 'Mochiy Pop P One', sans-serif;
 }
@@ -40,7 +40,7 @@ h2{
 }
 
 footer{
-background-color: orchid;
+background-color: rgb(73, 51, 72);
 width: 800px;
 margin: 0 auto;
 }
