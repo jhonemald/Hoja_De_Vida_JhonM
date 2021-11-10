@@ -4,7 +4,7 @@
 
 /*Color de fondo*/
 body {
-    background-color: rgb(52, 80, 71);
+    background-color:#181D31;
 }
 /* */
 .container {
@@ -12,15 +12,16 @@ body {
     font-family: 'Roboto', sans-serif; /*fuentes del texto*/
     margin: 0 auto;/*centrar*/
     width: 800px; /*Ancho */
-    border: 5px solid rgb(39, 36, 31);/*linea de borde*/
+    border: 5px solid #c2871a;/*linea de borde*/
     padding-left: 30px;/*espacio del parrafo entre el borde del contenedor*/
-    background-color: rgb(88, 85, 78);/*color de fondo*/
+    background-color:#F0E9D2;/*color de fondo*/
 }
 .perfil /*selector clase*/ {
     border-radius: 50%;/*imagen este en circulo*/
-    border: 5px solid rgb(69, 97, 88);/*color de la linea de borde imagen*/
+    border: 5px solid #678983;/*color de la linea de borde imagen*/
     display: block;
     margin: auto;/*imagen quede centrada*/
+    box-shadow: 10px 3px green, -1em 0 0.4em rgb(34, 27, 95);/*sombra relieve a*/
 }
 
 /*esto me quita la linea */
