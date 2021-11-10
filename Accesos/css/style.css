@@ -16,7 +16,7 @@ body {
     padding-left: 30px;/*espacio del parrafo entre el borde del contenedor*/
     background-color: rgb(88, 85, 78);/*color de fondo*/
 }
-.perfil {
+.perfil /*selector clase*/ {
     border-radius: 50%;/*imagen este en circulo*/
     border: 5px solid rgb(69, 97, 88);/*color de la linea de borde imagen*/
     display: block;
@@ -28,7 +28,7 @@ a {
     text-decoration: none;
 }
 
-h1 {
+h1/*selector tipo*/ {
     color:rgb(17, 7, 41);/*color de letra*/
     text-align: center;/*centrar texto*/
     font-family: 'Mochiy Pop P One', sans-serif;
