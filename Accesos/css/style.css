@@ -30,14 +30,14 @@ a {
 }
 
 h1/*selector tipo*/ {
-    color:rgb(17, 7, 41);/*color de letra*/
+    color:rgb(49, 25, 104);/*color de letra*/
     text-align: center;/*centrar texto*/
     font-family: 'Mochiy Pop P One', sans-serif;
 }
 
 h2{
     font-family: 'Mochiy Pop P One', sans-serif;
-    letter-spacing: 5px;/*espacio entre letras*/
+    letter-spacing: 1px;/*espacio entre letras*/
 }
 
 footer{
