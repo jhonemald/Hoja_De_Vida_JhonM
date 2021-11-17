@@ -1,47 +1,77 @@
-/*Fuentes de letra*/
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-/*Color de fondo*/
-body {
-    background-color:#181D31;
-}
-/* */
 .container {
-    color:rgb(49, 25, 104); /*color de la letra del parrafo*/
-    font-family: 'Roboto', sans-serif; /*fuentes del texto*/
-    margin: 0 auto;/*centrar*/
-    width: 800px; /*Ancho */
-    border: 5px solid #c2871a;/*linea de borde*/
-    padding-left: 30px;/*espacio del parrafo entre el borde del contenedor*/
-    background-color:#F0E9D2;/*color de fondo*/
-}
-.perfil /*selector clase*/ {
-    border-radius: 50%;/*imagen este en circulo*/
-    border: 5px solid #678983;/*color de la linea de borde imagen*/
-    display: block;
-    margin: auto;/*imagen quede centrada*/
-    box-shadow: 10px 3px green, -1em 0 0.4em rgb(34, 27, 95);/*sombra relieve a*/
-}
+  width: 90%;
+  margin: auto;
+  border: 5px solid rgb(155, 154, 154);
+  display: flex;
+  flex-direction: row;
+  }
+  .perfil {
+    background-color: rgb(22, 16, 82);
+    /*border: 3px solid red;*/
+    flex-grow: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-flow: column wrap;
+    color: white;
+  }
+   h2{
+    text-align: center;
+  }
+  .perfil img {
+      width: 245px;     
+  }
 
-/*esto me quita la linea */
-a {
-    text-decoration: none;
-}
+  h1 {
+      text-align: center;
+      font-size: 50px;
+      color:white;
+      color:rgb(46, 46, 165);
+  }
 
-h1/*selector tipo*/ {
-    color:rgb(49, 25, 104);/*color de letra*/
-    text-align: center;/*centrar texto*/
-    font-family: 'Mochiy Pop P One', sans-serif;
+  h3 {
+    color:rgb(46, 46, 165);
+    padding-left: 40px;
 }
+  .caja-perfil {
+    background-color: rgb(246, 247, 248);
+    /*border: 2px solid black;*/
+    padding: 5%;
+    
+  }
+  
+  .datos-profesionales {
 
-h2{
-    font-family: 'Mochiy Pop P One', sans-serif;
-    letter-spacing: 1px;/*espacio entre letras*/
-}
+    /*border: 5px solid green;*/
+    background-color: white;
+    flex-grow: 50;
+    padding-bottom: 5%;
+  }
 
-footer{
-background-color: rgb(73, 51, 72);
-width: 800px;
-margin: 0 auto;
-}
+  .datos-profesionales h4 {
+    margin-left: 5%;
+    text-align: left;
+    font-size: 20px;
+    padding-top: 5;
+    color: rgb(46, 46, 165);
+    
+  }
+  
+  .caja-profesionales {
+    margin: auto;
+    border-top: 4px solid gray;
+    box-shadow: 0 0 20px gray;
+    width: 95%;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    text-align: justify;
+  
+  }
+  .blanco{
+      background-color: rgb(243, 243, 243);
+  }
+  .azul {
+    background-color: rgb(22, 16, 82);
+  }
+  
