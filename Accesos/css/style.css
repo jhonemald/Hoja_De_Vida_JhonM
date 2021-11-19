@@ -5,9 +5,8 @@
   display: flex;
   flex-direction: row;
   }
-  .perfil {
+.perfil {
     background-color: rgb(22, 16, 82);
-    /*border: 3px solid red;*/
     flex-grow: 1;
     width: 50%;
     display: flex;
@@ -16,40 +15,61 @@
     flex-flow: column wrap;
     color: white;
   }
-   h2{
+ h2{
     text-align: center;
   }
-  .perfil img {
-      width: 245px;     
+.perfil img {
+      width: 250px;     
   }
 
-  h1 {
+ h1 {
       text-align: center;
       font-size: 50px;
       color:white;
       color:rgb(46, 46, 165);
   }
 
-  h3 {
+ h3 {
     color:rgb(46, 46, 165);
     padding-left: 40px;
 }
-  .caja-perfil {
+.caja-perfil {
     background-color: rgb(246, 247, 248);
-    /*border: 2px solid black;*/
     padding: 5%;
     
   }
-  
-  .datos-profesionales {
+.iconos{
+     color: white;
+     font-size: 30px;
+     margin-left: 20px;
+  }
+.icono{
+    color: white;
+    font-size: 30px;
+    margin-left: 45px;
+ }
+.porcentaje{
+     width: 100%;
+     height: 10px;
+     background-color: rgb(42, 44, 46);
+     display: block;
+     margin-top: 5px;
+     border-radius: 5px;
 
-    /*border: 5px solid green;*/
+  }
+.porcentaje div{
+    background: white;
+    height: 10px;
+    border-radius: 5px;
+
+  }
+.datos-profesionales {
     background-color: white;
     flex-grow: 50;
     padding-bottom: 5%;
   }
 
-  .datos-profesionales h4 {
+.datos-profesionales h4 {
     margin-left: 5%;
     text-align: left;
     font-size: 20px;
@@ -58,7 +78,7 @@
     
   }
   
-  .caja-profesionales {
+.caja-profesionales {
     margin: auto;
     border-top: 4px solid gray;
     box-shadow: 0 0 20px gray;
@@ -68,10 +88,10 @@
     text-align: justify;
   
   }
-  .blanco{
+.blanco{
       background-color: rgb(243, 243, 243);
   }
-  .azul {
+.azul {
     background-color: rgb(22, 16, 82);
   }
   
